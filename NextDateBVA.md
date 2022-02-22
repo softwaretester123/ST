@@ -34,19 +34,19 @@ public void test6() {
 }
 @Test
 public void test7() {
-    assertEquals(NextDate.check(1, 6, 1912),"2/6/1912");
+    assertEquals(NextDate.check(1, 6, 1912),"2-6-1912");
 }
 @Test
 public void test8() {
-    assertEquals(NextDate.check(2, 6, 1912),"3/6/1912");
+    assertEquals(NextDate.check(2, 6, 1912),"3-6-1912");
 }
 @Test
 public void test9() {
-    assertEquals(NextDate.check(15, 6, 1912),"16/6/1912");
+    assertEquals(NextDate.check(15, 6, 1912),"16-6-1912");
 }
 @Test
 public void test10() {
-    assertEquals(NextDate.check(30, 6, 1912),"1/7/1912");
+    assertEquals(NextDate.check(30, 6, 1912),"1-7-1912");
 }
 @Test
 public void test11() {
