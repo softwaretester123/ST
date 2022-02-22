@@ -10,8 +10,8 @@ public class Login {
 		System.setProperty("webdriver.chrome.driver", "E:\\Workspaces\\EclipseWorkspace\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.name("email")).sendKeys("ashwinathappank@gmail.com");
-		driver.findElement(By.name("pass")).sendKeys("Ashwin0208");
+		driver.findElement(By.name("email")).sendKeys("username");
+		driver.findElement(By.name("pass")).sendKeys("password");
 		driver.findElement(By.name("login")).click();
 	}
 }
